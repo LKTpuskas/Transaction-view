@@ -1,8 +1,8 @@
-# Crazy cards
+# Transaction view
 
-A web application to allow customers to enter their details and review credit cards that are applicable to their credit status.
+A web application displaying customers transaction data using an mock api.
 
-Using React, Typescript and Tailwind
+Technologies => React, Typescript and Styled components
 
 ## Available Scripts
 
@@ -10,10 +10,8 @@ In the project directory, you can run:
 
 ### `npm run dev` run FE server
 Runs the app in the development mode.\
-Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
+Open [http://localhost:4000](http://localhost:4000) to view it in your browser.
 
-
-### `npm run server` start the backend
 
 ### `npm run test`
 
