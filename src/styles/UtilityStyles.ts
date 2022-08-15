@@ -35,3 +35,18 @@ export const StyledLi = styled.li`
   list-style: none;
 `;
 
+export const StyledTable = styled.table`
+  border-radius: 12px;
+  background: white;
+  padding: 24px;
+  border-collapse: collapse;
+`;
+
+export const StyledTd = styled.td`
+  padding: 12px;
+`;
+
+export const StyledTh = styled.th`
+  text-align: left;
+  padding: 12px;
+`;

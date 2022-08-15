@@ -1,8 +1,7 @@
 import * as React from "react";
+
 import { StyledLi, StyledUl } from "../styles/UtilityStyles";
-
 import { BalanceProps } from "../types/HomeAccount";
-
 
 export function Balance({ amount, currency_iso }: BalanceProps) {
   return (

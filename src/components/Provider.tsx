@@ -1,8 +1,7 @@
 import * as React from "react";
+
 import { StyledLi, StyledUl } from "../styles/UtilityStyles";
-
 import { ProviderProps } from "../types/HomeAccount";
-
 
 export function Provider({
   title,

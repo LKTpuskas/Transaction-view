@@ -1,15 +1,13 @@
 import * as React from "react";
 import styled from "styled-components";
-import { ContentSection } from "../styles/UtilityStyles";
 
+import { ContentSection } from "../styles/UtilityStyles";
 import HomeAccount from "./HomeAccount";
 
 const MainWrapper = styled.main`
   margin: 8px;
   height: 100vh;
 `;
-
-
 
 const Header = styled.header`
   color: #4f4f4f;

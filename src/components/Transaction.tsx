@@ -1,7 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
-import { StyledLi } from "../styles/UtilityStyles";
 
+import { StyledLi, StyledTable, StyledTd, StyledTh } from "../styles/UtilityStyles";
 import { TransactionProps } from "../types/HomeAccount";
 import { CURRENCY_SYMBOLS } from "../utils/constants";
 
@@ -11,28 +11,13 @@ const TransactionWrapper = styled.div`
   padding: 12px;
 `
 
-const StyledTable = styled.table`
-  border-radius: 12px;
-  background: white;
-  padding: 24px;
-  border-collapse: collapse;
-`;
-
-const StyledTd = styled.td`
-  padding: 12px;
-`;
-
-const StyledTh = styled.th`
-  text-align: left;
-  padding: 12px;
-`;
-
 const StyledSpan = styled.span`
 padding-right: 8px;
 &:last-child {
   padding-right: 0;
 }
 `;
+
 const StyledTr = styled.tr<{ isTrItem?: boolean }>`
   &:nth-child(odd) {
     background: ${({ isTrItem }) => isTrItem ? '#f7f7ff' : 'white'};
@@ -81,6 +66,5 @@ export function Transaction({
         </tbody>
       </StyledTable >
     </TransactionWrapper>
-
   );
 }
